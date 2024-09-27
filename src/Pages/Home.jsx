@@ -83,32 +83,31 @@ const Home = () => {
 
       {/* Create Profile Section */}
       <div
-        className="container mx-auto px-4 md:px-6 lg:px-8 py-12 bg-cover bg-center bg-fixed"
-        style={{
-          backgroundImage: `url(${bgimg})`, // Path to background image
-        }}
-      >
-        <h2 className="text-3xl font-bold text-center mb-8 text-white">Create Your Biodata Now</h2>
+  className="container mx-auto px-4 md:px-6 lg:px-8 py-12 bg-cover bg-center bg-fixed"
+  style={{
+    backgroundImage: `url(${bgimg})`, // Path to background image
+  }}
+>
+  <h2 className="text-3xl font-bold text-center mb-8 text-white">Create Your Biodata Now</h2>
 
-        {/* Flex Container for Form and Image */}
-        <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-white bg-opacity-90 space-y-6 md:space-y-0">
+  {/* Flex Container for Form and Image */}
+  <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-white bg-opacity-90 space-y-6 md:space-y-0">
+    
+    {/* 3/4 Width for Form */}
+    <div className="w-full md:w-3/4 md:mr-8">
+      <CreateProfile />
+    </div>
 
-          {/* 3/4 Width for Form */}
-          <div className="w-full md:w-3/4 md:mr-8">
-            <CreateProfile />
-          </div>
-
-          {/* 1/4 Width for Image */}
-          <div className="w-full md:w-1/4 flex justify-center mt-8 md:mt-0">
-            <img
-              src={heroimg1} // Path to your image
-              alt="Profile Image"
-              className="w-full h-auto rounded-lg shadow-md object-cover"
-            />
-          </div>
-        </div>
-      </div>
-
+    {/* 1/4 Width for Image */}
+    <div className="w-full md:w-1/4 flex justify-center mt-8 md:mt-0">
+      <img
+        src={heroimg1} // Path to your image
+        alt="Profile Image"
+        className="w-full h-auto rounded-lg shadow-md object-cover"
+      />
+    </div>
+  </div>
+</div>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
