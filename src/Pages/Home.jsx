@@ -91,7 +91,7 @@ const Home = () => {
   <h2 className="text-3xl font-bold text-center mb-8 text-white">Create Your Biodata Now</h2>
 
   {/* Flex Container for Form and Image */}
-  <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-white bg-opacity-90 space-y-6 md:space-y-0">
+  <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-opacity-90 space-y-6 md:space-y-0">
     
     {/* 3/4 Width for Form */}
     <div className="w-full md:w-3/4 md:mr-8">
