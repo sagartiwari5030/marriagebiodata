@@ -89,7 +89,7 @@ const Home = () => {
     backgroundImage: `url(${bgimg})`, // Path to background image
   }}
 >
-  <h2 className="text-3xl font-bold text-center mb-8 text-white">Create Your Biodata Now</h2>
+  <h2 className="text-3xl font-bold text-center mb-8 text-pink-600 bg-white rounded-lg">Create Your Biodata Now</h2>
 
   {/* Flex Container for Form and Image */}
   <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-opacity-90 space-y-6 md:space-y-0">
