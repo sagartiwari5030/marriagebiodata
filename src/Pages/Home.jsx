@@ -83,7 +83,7 @@ const Home = () => {
 
       {/* Create Profile Section */}
       <div
-        className="container mx-auto px-4 md:px-0 py-12 bg-cover bg-center bg-fixed"
+        className="container mx-auto px-4 md:px-6 lg:px-8 py-12 bg-cover bg-center bg-fixed"
         style={{
           backgroundImage: `url(${bgimg})`, // Path to background image
         }}
@@ -91,7 +91,8 @@ const Home = () => {
         <h2 className="text-3xl font-bold text-center mb-8 text-white">Create Your Biodata Now</h2>
 
         {/* Flex Container for Form and Image */}
-        <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-8 md:p-12 bg-opacity-80">
+        <div className="flex flex-col md:flex-row items-center justify-between rounded-lg shadow-md p-6 md:p-12 bg-white bg-opacity-90 space-y-6 md:space-y-0">
+
           {/* 3/4 Width for Form */}
           <div className="w-full md:w-3/4 md:mr-8">
             <CreateProfile />
@@ -107,6 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
