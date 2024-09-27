@@ -4,7 +4,8 @@ import heroImage from '../assets/heroimg.png'; // Make sure the path is correct
 import heroimg1 from '../assets/img1.png';
 import heroimg3 from '../assets/img3.png';
 import CreateProfile from './CreateProfile';
-import bgimg from '../assets/imgbg.png'
+import bgimg from '../assets/imgbg.png';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -33,12 +34,12 @@ const Home = () => {
             <img
               src={heroimg1}
               alt="Card 1"
-              className="absolute w-40 md:w-50 h-64 md:h-80 rounded-lg shadow-md transform -rotate-12 -left-10 md:-left-20 top-10 z-0"
+              className="absolute w-40 md:w-50 h-64 md:h-60 rounded-lg shadow-md transform -rotate-12 -left-10 md:-left-20 top-10 z-0"
             />
             <img
               src={heroimg3}
               alt="Card 3"
-              className="absolute w-40 md:w-50 h-64 md:h-80 rounded-lg shadow-md transform rotate-3 left-5 md:left-10 top-16 z-0"
+              className="absolute w-40 md:w-50 h-64 md:h-60 rounded-lg shadow-md transform rotate-3 left-5 md:left-10 top-16 z-0"
             />
             {/* Main Circular Image */}
             <img
@@ -111,7 +112,8 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
-        <p>&copy; {new Date().getFullYear()} MarriageBiodata. All rights reserved.</p>
+<Footer/>
+        {/* <p>&copy; {new Date().getFullYear()} MarriageBiodata. All rights reserved.</p> */}
       </footer>
     </div>
   );
