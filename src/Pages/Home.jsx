@@ -24,7 +24,7 @@ const Home = () => {
             </p>
             <div className="space-x-4">
               <Link to="/create-profile" className="bg-pink-900 text-white px-4 py-2 rounded shadow-md font-semibold">Create Profile</Link>
-              <Link to="/profile-list" className="bg-pink-900 text-white px-4 py-2 rounded shadow-md font-semibold">View Profiles</Link>
+              {/* <Link to="/profile-list" className="bg-pink-900 text-white px-4 py-2 rounded shadow-md font-semibold">View Profiles</Link> */}
             </div>
           </div>
 
